@@ -1,63 +1,57 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Junior PHP Developer</title>
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
 
-.hero {
-    height: 100vh;
-    background: #111;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+<header class="hero">
+    <h1>Jan Novák</h1>
+    <p>Junior PHP / Web Developer</p>
+    <a href="#kontakt" class="btn">Kontaktovat</a>
+</header>
 
-section {
-    padding: 60px 20px;
-    max-width: 1000px;
-    margin: auto;
-}
+<section id="about">
+    <h2>O mně</h2>
+    <p>
+        Jsem absolvent se zaměřením na tvorbu webových aplikací.
+        Pracuji s PHP, HTML, CSS a JavaScript a hledám svou první
+        juniorní pozici.
+    </p>
+</section>
 
-.skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 15px;
-}
+<section id="skills">
+    <h2>Dovednosti</h2>
 
-.skills-grid div {
-    background: #eee;
-    padding: 20px;
-    text-align: center;
-    border-radius: 8px;
-}
+    <div class="skills-grid">
+        <div>PHP</div>
+        <div>HTML</div>
+        <div>CSS</div>
+        <div>JavaScript</div>
+        <div>MySQL</div>
+        <div>Git</div>
+    </div>
+</section>
 
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
+<section id="kontakt">
+    <h2>Kontakt</h2>
 
-input, textarea, button {
-    padding: 10px;
-    font-size: 16px;
-}
+    <form action="backend/contact.php" method="post">
+        <input type="text" name="name" placeholder="Jméno" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Zpráva"></textarea>
+        <button type="submit">Odeslat</button>
+    </form>
+</section>
 
-.btn {
-    margin-top: 20px;
-    padding: 12px 25px;
-    background: #fff;
-    color: #111;
-    text-decoration: none;
-    border-radius: 5px;
-}
+</body>
+</html>
+
 
 
 
