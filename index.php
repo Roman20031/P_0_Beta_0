@@ -7,8 +7,26 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="style/style.css">
+    <!-- JS -->
+    <script src="frontend/main.js" defer></script>
 </head>
 <body>
+
+<nav class="navbar">
+    <div class="logo">Portfolio</div>
+
+    <ul class="nav-links">
+        <li><a href="#about">O mně</a></li>
+        <li><a href="#skills">Dovednosti</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+
+    <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</nav>
 
 <header class="hero">
     <h1>Jan Novák</h1>
@@ -48,6 +66,8 @@
         <button type="submit">Odeslat</button>
     </form>
 </section>
+
+<div id="scrollTopBtn">^</div>
 
 </body>
 </html>
