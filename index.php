@@ -29,9 +29,9 @@
 </nav>
 
 <header class="hero">
-    <h1>Jan Novák</h1>
+    <h1>Roman Demianenko</h1>
     <p>Junior PHP / Web Developer</p>
-    <a href="#kontakt" class="btn">Kontaktovat</a>
+    
 </header>
 
 <section id="about">
