@@ -18,7 +18,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background: var(--dark);
+    background: goldenrod;
     color: white;
     padding: 15px 20px;
     display: flex;
@@ -29,7 +29,7 @@ body {
 
 .logo {
     font-weight: bold;
-    color: var(--gold);
+    color: black;
 }
 
 .nav-links {
@@ -44,7 +44,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: var(--gold);
+    color: red;
 }
 
 .hamburger {
